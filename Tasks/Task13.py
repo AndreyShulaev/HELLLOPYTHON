@@ -21,6 +21,8 @@ def get_fibonacci(n):
         a, b = b, a - b
     return fibo_nums
 
-fibo_nums = get_fibonacci(n)
+#fibo_nums = []
+fibo_nums1 = get_fibonacci(n)
 print(get_fibonacci(n))
-print(fibo_nums.index(0))
+#print(fibo_nums)
+print(fibo_nums1.index(0))
